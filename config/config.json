@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "common-style-ext-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/commonStyleExt/CommonStyleExtApplicationCustomizer.js",
+          "manifest": "./src/extensions/commonStyleExt/CommonStyleExtApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CommonStyleExtApplicationCustomizerStrings": "lib/extensions/commonStyleExt/loc/{locale}.js"
+  }
+}
